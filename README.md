@@ -20,7 +20,7 @@ This is a simple to do list, made using React.
 
 Essa é uma lista de tarefas simples, feita em React.
 
-- Você pode adicionar uma tarefa preenchendo o campo na tela e enviar clicando no botão de mais (+)
+- Você pode adicionar uma tarefa preenchendo o campo na tela e enviar clicando no botão de mais (+).
 
 - Você pode editar suas tarefas passando o mouse por cima da tarefa e clicando no ícone de caneta. Você verá o item que escolheu aparecendo no campo.
 
