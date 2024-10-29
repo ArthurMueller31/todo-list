@@ -29,7 +29,7 @@
   height: 40px;
   padding: 0 20px;
   font-size: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #1284b960;
   min-width: 80%;
 }
 
@@ -37,7 +37,7 @@
   border: none;
   height: 40px;
   width: 40px;
-  background-color: #ccc;
+  background-color: #2077d5;
   color: black;
   display: flex;
   align-items: center;
@@ -45,7 +45,7 @@
 }
 
 .form button[type="submit"]:hover {
-  background-color: #bdbdbd;
+  background-color: #3e86d3;
 }
 
 .tarefas {
@@ -61,7 +61,7 @@
 }
 
 .tarefas li:hover {
-  background-color: #ccc;
+  background-color: #4eb7e8;
 }
 
 .tarefas li .edit {

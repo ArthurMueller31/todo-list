@@ -4,7 +4,7 @@
 
 This is a simple to do list, made using React.
 
-- You can add a to do by filling the field on the screen and submiting by pressing the plus (+) button.
+- You can add a to do by filling the field on the screen and submiting by pressing the plus (+) button or hitting the Enter key.
 
 - You can edit your to do's by hovering the item and clicking on the pen icon. Then you will see the to do item showing up on the field.
 
@@ -20,7 +20,7 @@ This is a simple to do list, made using React.
 
 Essa é uma lista de tarefas simples, feita em React.
 
-- Você pode adicionar uma tarefa preenchendo o campo na tela e enviar clicando no botão de mais (+).
+- Você pode adicionar uma tarefa preenchendo o campo na tela e enviar clicando no botão de mais (+) ou apertando a tecla Enter.
 
 - Você pode editar suas tarefas passando o mouse por cima da tarefa e clicando no ícone de caneta. Você verá o item que escolheu aparecendo no campo.
 
