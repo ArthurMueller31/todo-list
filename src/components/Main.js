@@ -5,9 +5,10 @@ import React, { Component } from "react";
 import { FaPlus } from "react-icons/fa";
 
 // Tarefas
-import { FaEdit, FaWindowClose } from "react-icons/fa";
+import { FaEdit } from "react-icons/fa";
 
 import "./Main.css";
+import { FaTrash } from "react-icons/fa6";
 
 export default class Main extends Component {
   state = {
@@ -38,7 +39,7 @@ export default class Main extends Component {
     let { novaTarefa } = this.state;
     novaTarefa = novaTarefa.trim();
 
-    if (tarefas.indexOf(novaTarefa) !== -1) return;
+    if (tarefas.indexOf(novaTarefa) !== -1 || novaTarefa.length === 0) return; // checa se é repetida ou se não é vazia
 
     const novasTarefas = [...tarefas];
 
@@ -69,6 +70,8 @@ export default class Main extends Component {
       index,
       novaTarefa: tarefas[index],
     });
+
+
   };
 
   handleDelete = (e, index) => {
@@ -102,10 +105,12 @@ export default class Main extends Component {
               {tarefa}
               <span>
                 <FaEdit
+                size={18}
                   onClick={(e) => this.handleEdit(e, index)}
                   className="edit"
                 />
-                <FaWindowClose
+                <FaTrash
+                size={16}
                   onClick={(e) => this.handleDelete(e, index)}
                   className="delete"
                 />
